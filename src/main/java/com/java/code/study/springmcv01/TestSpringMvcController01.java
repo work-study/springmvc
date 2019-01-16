@@ -40,4 +40,8 @@ public class TestSpringMvcController01 {
         return "redirect:/index.jsp";
     }
 
+    @RequestMapping("/testBaseType")
+    public String testBaseType(Integer id,HttpServletRequest request) {
+        return "success";
+    }
 }
